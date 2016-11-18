@@ -22,8 +22,8 @@ color: Black;
 }
 
 .page2{
-font-family: Century Gothic, sans-serif
-margin:auto;
+font-family: Century Gothic, sans-serif;
+margin-auto;
 width:1250px;
 height:15	00px;
 opacity:1.0;
@@ -158,6 +158,8 @@ li { list-style: none; }
 #bbpic {
 	margin-top: 15px;
 	padding-right:40px;
+	padding-left: 50px;
+	
 	
 	
 }
