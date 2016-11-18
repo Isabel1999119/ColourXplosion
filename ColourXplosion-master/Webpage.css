@@ -22,6 +22,7 @@ color: Black;
 }
 
 .page2{
+font-family: Century Gothic, sans-serif;
 margin:auto;
 width:1250px;
 height:15	00px;
@@ -161,14 +162,14 @@ li { list-style: none; }
 	
 }
 .page  h1  {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Century Gothic, sans-serif;
 	font-size: 20px;
-	padding-top: 20px;
+	padding-top: 30px;
 
 }
 .page h2 {
 	padding: 30px;
 	font-size:70px;
-	font-family:Trebuchet MS',Helvetica, sans-serif;
+	font-family:Century Gothic, sans-serif;
 }
 	
