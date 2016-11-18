@@ -9,7 +9,7 @@ width:1250px;
 height:300px;
 opacity:1.0;
 text-align: center;
-background-image: url("IMG/water2.jpg")
+background-image: url("IMG/dive.jpeg")
 
 }
 .Header{
@@ -29,6 +29,7 @@ height:15	00px;
 opacity:1.0;
 text-align: centre;
 color:Black;
+
 }
 #hardware{
 height: 350px;
@@ -160,8 +161,6 @@ li { list-style: none; }
 	padding-right:40px;
 	padding-left: 50px;
 	
-	
-	
 }
 .page  h1  {
 	font-family: Century Gothic, sans-serif;
@@ -173,5 +172,19 @@ li { list-style: none; }
 	padding: 30px;
 	font-size:70px;
 	font-family:Century Gothic, sans-serif;
+}
+.page2 h3 {
+	padding: 30px;
+	font-family: Century Gothic, sans-serif;
+	text-align: center;
+}
+
+
+#candle {
+	padding-top:50px;
+	padding-left:50px;
+	padding-right: 50px;
+	width:400px;
+	height:500px;
 }
 	
