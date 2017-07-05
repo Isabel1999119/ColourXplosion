@@ -1,16 +1,33 @@
 <!Doctype html>
 	
 	<head>
-	
+	<link rel="stylesheet" type="text/css" href="parallaxslider.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="jquery.velocity.min.js"></script>
+	<script type="text/javascript" src="jquery.touchSwipe.min.js"></script>
+	<script src="parallaxslider.js" type="text/javascript"></script>
 	<link type="text/css" rel="stylesheet" href="Webpage.css"/>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<title>
-			Home
+			ColourXplosion
 		</title>
-		
+	<script type="text/javascript">
+
+	var firstparallaxslider=new parallaxSlider({
+		wrapperid: 'myparallaxslider', 
+		displaymode: {type:'manual', pause:3000, cycles:2, stoponclick:true, pauseonmouseover:true},
+		delaybtwdesc:  500, 
+		navbuttons: ['left.png', 'right.png', 'up.png', 'down.png'], 
+		activeslideclass: 'selectedslide', 
+		orientation: 'h', 
+		persist: true,
+		slideduration: 1000 
+	})
+
+	</script>
 	</head>
 	
 	<body>
@@ -43,58 +60,69 @@
     </div>
 
 	<div class="page">		
-			<h2><strong><style="font-family:serif; > WELCOME </strong></h2>
-			<h1><style="font-family:Sans-serif  ;">Welcome to the official website to our company ColourXplosion!</h1>
+			<h2><strong><style="font-family:serif";> WELCOME </strong></h2>
+			<h1><style="font-family:Sans-serif";>Welcome to the official website to our company ColourXplosion!</h1>
 	</div>
 	<hr> </hr>
-	<div class="page2">
-		<table>
-			<tr>
-							
-				<td>
-								
-					<img id="bbpic" class=picture src="IMG/Bathbombs.jpg" alt="Binary"/>
-									
-				</td>
-								
-				<td>
-									
-					<p>
-						<h3> <strong><font size="+3"> Who We Are </strong> </h3>
-						<p><font size="+2">We’re a local start-up company based in Waterloo, Ontario. We are determined to multi purpose your bath so you can receive your average daily cleaning, along with an at home luxury bathing experience. And also, without the extra cost!</p>
-										
-					</p>
-									
-				</td>
-								
-			</tr>
-							
-		</table>
-	</div>
+	<div class="page3">	
 	
-	<div class="page2">
-		<table>
-			<tr>
-							
-				<td>
-								
-					<img id="candle" class=candlelight src="IMG/candle.jpg"/>	
-									
-				</td>
-								
-				<td>
-									
-					<p>
+		
+			<!--A div surrounding my context so I can have the same properties for all of my slide, no matter the slide-->
+			<div id="myparallaxslider" class="parallaxslider">
+
+				<!--A div surrounding my first slide-->
+				<div class="slide">
 					
-					<h3><strong><font size="+3">What We Do</strong></h3>
-					<p><font size="+2"> Baths are simply a necessity in life to keep clean, but our company has come up with a solution to brighten up your bathtub and make sure every soak you take is a different experience unlike any other.</p>
-					</p>
-									
-				</td>
-								
-			</tr>
-							
-		</table>
+					<!--image background for this specific slide-->
+					<div class="bgoverlay" data-bgimage="Bathbombs4.jpg"></div>
+					
+					<div class="desc">
+						<div  class="softdiv" style="bottom:15px; left:110px;">
+						</div>
+					</div>
+				
+				</div>
+
+				<!--A div surrounding my second slide-->
+				<div class="slide">
+					
+					<!--image background for this specific slide-->
+					<div class="bgoverlay" data-bgimage="Bathbombs2.jpg"></div>
+					
+					<!--Content describing operating systems-->
+					<div class="desc">
+						<div  class="softdiv" style="bottom:0px; left:300px;">
+						</div>
+					
+					</div>
+					
+					<!--Content title-->
+					<div class="desc">
+						<div  class="softdiv1" style="position:absolute; top:1em; font-size: 30px"> </div>
+					</div>
+				
+				</div>
+
+				<!--A div surrounding my third slide-->
+				<div class="slide">
+					<!--image background for this specific slide-->
+					<div class="bgoverlay" data-bgimage="Bathbombs.jpg"></div>
+					
+					<!--Content title-->
+					<div class="desc">
+						<div  class="softdiv1" style="position:absolute; top:1em; font-size: 30px"> 
+						</div>
+					</div>
+					
+					<div class="softdiv" style="bottom:0px; left:385px;">
+					</div>
+					
+					
+					<div  class="softdiv" style="bottom:0px; left:140px">
+					</div>
+				
+				</div>
+			</div>
 	</div>
 	
 	

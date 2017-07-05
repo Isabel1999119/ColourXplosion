@@ -1,0 +1,69 @@
+/*Properties and relations for my parallaxslider on page 4*/
+/* Noah Kim's CSS*/
+#myparallaxslider{
+width:80%;
+height:550px;
+margin-left:50px;
+}
+
+
+
+div.parallaxslider{ 
+background: black url(ajaxload.gif) center center no-repeat; 
+}
+
+div.parallaxslider img.navbutton{ 
+}
+
+div.parallaxslider *{
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+div.parallaxslider div.slide{
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+display: none;
+}
+
+div.parallaxslider div.slide div.bgoverlay{ 
+position: absolute;
+z-index: 0;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+background-color: black;
+background-position: center center; 
+background-repeat: no-repeat;
+background-size: cover; 
+}
+
+div.parallaxslider div.selectedslide{ 
+}
+
+div.parallaxslider div.slide div.desc{ 
+position: absolute;
+color: white;
+padding: 8px;
+text-shadow: 0 -1px 1px #8a8a8a; 
+z-index:5;
+pointer-events: none; 
+}
+
+div.parallaxslider div.slide div.desc *{
+pointer-events: auto; 
+}
+
+div.parallaxslider div.selectedslide div.desc{ 
+}
+
+
+div.parallaxslider div.slide div.desc a{
+color:yellow;
+text-decoration:none;
+}
